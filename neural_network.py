@@ -23,10 +23,10 @@ class NeuralNetwork():
         
     def backprobagation(self):
         d_weights_2 = np.dot(self.layer_1.T, 
-                             (2*(self.y - self.output) * sigmoid_d(self.output))
+                             ((self.y - self.output) * sigmoid_d(self.output))
                              );
         d_weights_1 = np.dot(self.input.T, 
-                             (np.dot(2*(self.y - self.output) * sigmoid_d(self.output), 
+                             (np.dot((self.y - self.output) * sigmoid_d(self.output), 
                                      self.weights_2.T) * sigmoid_d(self.layer_1)
                                     )
                              )
