@@ -1,5 +1,5 @@
 # bp-pure-numpy
-achieving bp without using any deep learning library
+This repo contains code that achieved bp without using any deep learning library, like TersorFlow or PyTorch
 
 ## Run 
 1. Download all code
