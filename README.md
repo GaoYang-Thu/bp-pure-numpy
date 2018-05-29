@@ -1,5 +1,5 @@
 # bp-pure-numpy
-This repo contains code that achieved bp without using any deep learning library, like TersorFlow or PyTorch
+This repo contains codes that achieved backprobagation algorithm in matrix form, without using any deep learning library, like TersorFlow or PyTorch
 
 ## Run 
 1. Download all code
