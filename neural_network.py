@@ -8,6 +8,7 @@ Todo: create a neural network class
 """
 import numpy as np
 from sigmoid_def import sigmoid, sigmoid_d
+import config as cf
 
 class NeuralNetwork():
     def __init__(self, x,y):
@@ -31,5 +32,5 @@ class NeuralNetwork():
                                     )
                              )
 
-        self.weights_1 += d_weights_1
-        self.weights_2 += d_weights_2
+        self.weights_1 += cf.LEARNING_RATE * d_weights_1
+        self.weights_2 += cf.LEARNING_RATE * d_weights_2
