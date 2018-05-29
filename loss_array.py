@@ -17,8 +17,8 @@ def plot_loss(loss_array):
 #    plt.ion()
     fig = plt.figure()
     plt.plot(range(cf.ITER_NUM),loss_array)
-#    plt.xlabel('iteration')
-#    plt.ylabel('Loss')
+    plt.xlabel('iteration')
+    plt.ylabel('Loss')
     plt.show()
 
     
